@@ -41,7 +41,7 @@ class Main extends react.Component {
         Day3Des: "",
       });
       // http://localhost:3100/weather?name=${e.target.city.value}&lon=${Mydata.data[0].lon}&lat=${Mydata.data[0].lat}`
-      const server = `${process.env.REACT_APP_URL}${process.env.REACT_APP_PORT}/weather?name=${e.target.city.value}&lon=${Mydata.data[0].lon}&lat=${Mydata.data[0].lat}`;
+      const server = `https://lab07ser.herokuapp.com/weather?name=${e.target.city.value}&lon=${Mydata.data[0].lon}&lat=${Mydata.data[0].lat}`;
       
       let CityData = await axios.get(server);
 
