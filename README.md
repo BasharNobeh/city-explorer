@@ -7,6 +7,11 @@
 A Web application that will help the client to recieve Weather data about Amman,Paris and Seattle city which will include 
 the Weather status for the next 3 days 
 
+Data Flow: 
+
+![Screenshot_3](https://user-images.githubusercontent.com/84404158/187319791-82d76d61-b3c4-4044-a8a2-48466ccda991.png)
+
+
 ## Getting Started
 -Download my Directory .
 -UnderStand the connections between the classes and components 
